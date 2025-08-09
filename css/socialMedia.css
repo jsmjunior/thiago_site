@@ -1,0 +1,73 @@
+.social_media{
+    display: flex;
+    align-self: center;
+    gap: 10px;  
+    width: 60%;
+    border-radius: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+.social_media button {
+    height: 50px;
+    width:  200px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center;
+    background: none;
+    color: inherit;
+    border: none;
+    box-shadow: #000 1px 1px 1px 1px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    border-radius: 10px;
+
+}
+.social_media button img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+
+}
+
+/* instagram  */
+#icon_instagram {
+    background: #833AB4;
+    background: linear-gradient(185deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    color: inherit;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+}
+/* whatsapp */
+#link_whatsapp {
+    color: inherit;
+    border: none;
+    align-self: center;
+}
+.container_link{
+    width: 70px;
+    height: 70px;
+    background-color: azure;
+    align-items: center;
+    justify-content: center;
+}
+.container_link h3 {
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+    margin-top: 5px;
+}
+@media screen and (max-width: 600px) {
+    .social_media {
+        flex-direction: column;
+        width: 80px;
+        height: 300px;
+    }
+}
