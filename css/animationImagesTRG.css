@@ -1,0 +1,60 @@
+
+/* start images */
+#trg-method {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+#trg-methodology {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    animation-name: slide-in;
+    animation-duration: 3s;
+}
+/* end images */
+
+
+/* animations */
+
+@keyframes slide-in {
+  0% {
+    translate: 15vw;
+    scale: 100% 1;
+    opacity: 0;
+  }
+
+  50% {
+    translate: 10vw;
+    scale: 100% 1;
+    opacity: 0.5;
+  }
+
+  100% {
+    translate:0;
+    scale: 100% 1;
+    opacity: 1;
+  }
+
+}
+@keyframes slide-in-reverse {
+  0% {
+    translate: -15vw;
+    scale: 100% 1;
+    opacity: 0;
+  }
+
+  50% {
+    translate: 10vw;
+    scale: 100% 1;
+    opacity: 0.5;
+  }
+
+  100% {
+    translate:0;
+    scale: 100% 1;
+    opacity: 1;
+  }
+}

@@ -26,3 +26,15 @@
     margin-bottom: 8px;
     align-self: center;
 }
+@media screen and (max-width: 600px) {
+    .body-article {
+        padding: 10px;
+        width: 90%;
+    }
+    #About-me-title, .sub-title {
+        font-size: 20px;
+    }
+    #About-me-content {
+        font-size: 14px;
+    }
+}
