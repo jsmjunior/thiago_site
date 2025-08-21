@@ -4,13 +4,13 @@
     width: 100%;
     height: auto;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    animation-name: slide-in-reverse;
+    animation-duration: 3s;
 }
 #trg-methodology {
     width: 100%;
     height: auto;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     animation-name: slide-in;
     animation-duration: 3s;
 }
@@ -27,7 +27,7 @@
   }
 
   50% {
-    translate: 10vw;
+    translate: -10vw;
     scale: 100% 1;
     opacity: 0.5;
   }
@@ -45,16 +45,23 @@
     scale: 100% 1;
     opacity: 0;
   }
+  25% {
+    scale: 100% 1;
+    opacity: 0.25;
+  }
 
   50% {
-    translate: 10vw;
     scale: 100% 1;
     opacity: 0.5;
   }
 
+  75%{
+    translate: 3vw;
+    opacity: 0.75;
+  }
+
   100% {
     translate:0;
-    scale: 100% 1;
     opacity: 1;
   }
 }
