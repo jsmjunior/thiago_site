@@ -1,6 +1,6 @@
 /* whatsapp link */
 .whatsapp {
-    position: fixed;
+    position: fixed!important;
     bottom: 20px;
     right: 20px;
     z-index: 1000;
@@ -11,7 +11,7 @@
     background: none;
     border: none;
     cursor: pointer;
-     display:flex;
+    display:flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
@@ -49,3 +49,25 @@
 
 }
 
+@media screen and (max-width: 600px) {
+    .whatsapp {
+        bottom: 10px;
+        right: 10px;
+    }
+    .whatsapp_text {
+        font-size: 10px;
+        width: 100px;
+    }
+    .whatsapp_img {
+        width: 40px;
+        height: 40px;
+    }
+    .whatsapp{
+        width: 50px;
+        right: 5px;
+    }
+    .whatsapp_button:hover {
+        animation: none;
+        
+    }
+}

@@ -13,7 +13,6 @@ body {
     background: #D3D3D3;
     background: linear-gradient(180deg, rgba(211, 211, 211, 1) 0%, rgba(245, 245, 245, 1) 60%, rgba(28, 28, 28, 1) 100%);
     color: #222;
-    line-height: 1.6;
     height: 100%;
     align-items: center;
     width: 100%;
@@ -30,6 +29,7 @@ header {
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     background: rgba(29, 54, 61, 0.647) ;
     backdrop-filter: blur(5px);
     position: sticky;
@@ -51,18 +51,11 @@ header {
     align-self: center;
 
 } */
-#header_logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
+
 #logo_header {
     width: 150px;
     height: 100px;
     animation: slide-from-top 2s forwards;
-    align-self: center;
-    justify-self: flex-start;
 }
 
 .header-text {
@@ -91,44 +84,70 @@ header {
     width: 75px;
     height: 75px;
     border-radius: 100%;
-    background: rgb(29, 54, 61);
+    background: rgba(29, 54, 61, 0);
 
 }
 .icon_header #icon {
     width: 100%;
     height: 100%;
     border-radius: 100%;
-    margin-top: 10px;
 }
 .links {
     flex-direction: column;
     align-self: center;
 
 }
-.menu_button {
+.links {
     align-self: center;
-    height: 35px;
-    width: 35px;
+    height: 75px;
+    width: 75px;
     text-decoration: none;
     font-weight: bold;
     padding: 5px 5px;
     text-align: center;
-    box-shadow: #222 0px 0px 2px;
-    background-color: #333;
+    /* box-shadow: #222 0px 0px 2px;
+    background-color: #333; */
     border-radius: 100%;
     transform: rotate(90deg);
-    margin-right: 10px;
+   
     
 
 }
-.menu_button:hover {
+/* .menu_button:hover {
     background-color: #4f4f4f;
     color: white;
-}
+} */
 .icon {
     align-items: center;
     margin: 0 auto;
 }
+
+
+
+@media screen and (max-width: 600px) {
+    /* header {
+    } */
+
+    .icon_header {
+        align-self: center;
+        align-items: center;
+        height: 75px;
+        width: 75px;
+
+    }
+    #logo_header {
+        height: 80px;
+        width: 160px;
+        animation: slide-from-top 2s forwards;
+        align-self: center;
+        justify-content: center;
+    }
+
+}
+
+/* header end */
+
+
 
 /* Main content */
 main {
@@ -216,25 +235,31 @@ footer p {
 }
 /* end footer */
 
-
+/* responsive screens */
 @media screen and (max-width: 600px) {
     body {
         flex-direction: column;
 
     }
     header {
-        width: 90%;
+        width: 100%;
+        height: 150px;
     }
+
  
     main {
         padding: 1rem;
-        width: 90%;
+        width: 100%;
     }
     footer {
         flex-direction: column;
-        width: 90%;
+        width: 100%;
     }
 }
+
+
+
+/* animations */
 @keyframes slide-from-top {
   0% {
     transform: translateY(-100vw);
