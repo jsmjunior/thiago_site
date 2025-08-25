@@ -15,7 +15,13 @@
     animation-duration: 3s;
 }
 /* end images */
-
+@media screen and (max-width: 600px) {
+    #trg-method,
+    #trg-methodology {
+        width: 100%;
+        height: auto;
+    }
+}
 
 /* animations */
 

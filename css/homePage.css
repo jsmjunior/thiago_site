@@ -66,7 +66,7 @@ header {
     
 }
 
-.header ul {
+/* .header ul {
     height: 120px;
     display: flex;
     justify-content: space-around;
@@ -79,7 +79,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 .icon_header {
     width: 75px;
     height: 75px;
@@ -163,6 +163,11 @@ main {
     min-height: 100%;
     
 }
+@media screen and (max-width: 600px) {
+    main {
+        width: 100%;
+    }
+}
 /* Perfil photo*/
 .photos {
     display: flex;
@@ -198,6 +203,18 @@ main {
     box-shadow: #333 0px 1px 5px 1px;
     z-index: 1;
 }
+
+@media screen {
+    .header_picture {
+        height: 150px;
+    }
+    .picture {
+        width: 120px;
+        height: 120px;
+        margin-top: 30px;
+    }
+}
+
 /* Social Media */
 #redes-sociais {
     margin: 20px 0;
