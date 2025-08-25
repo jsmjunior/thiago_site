@@ -23,7 +23,14 @@
         padding: 0px;
     }
     #trg-method {
-        height: 100%;
+        height: 110%;
+        width: 120%;
+        margin-left: -10%;
+    }
+    .consultation-img {
+        height: 110%;
+        width: 120%;
+        margin-left: -10%;
     }
 }
 
