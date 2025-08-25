@@ -19,7 +19,11 @@
     #trg-method,
     #trg-methodology {
         width: 100%;
-        height: auto;
+        height: 100%;
+        padding: 0px;
+    }
+    #trg-method {
+        height: 100%;
     }
 }
 
