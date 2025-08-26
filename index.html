@@ -9,12 +9,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Thiago TRG</title>
   <link type="text/css" rel="stylesheet" href="./css/homePage.css" />
-  <link rel="stylesheet" href="./css/whatsappButton.css" defer/>
-  <link rel="stylesheet" href="./css/socialMedia.css"/>
-  <link rel="stylesheet" href="./css/mainArticle.css" />
-  <link rel="stylesheet" href="./css/animationImagesTRG.css" />
-    <script type="text/javascript" src="./js/whatsapp.js"  defer></script>
-    <script type="text/javascript" src="./js/menu.js" defer></script>
+  <link type="text/css" rel="stylesheet" href="./css/whatsappButton.css" defer/>
+  <link type="text/css" rel="stylesheet" href="./css/socialMedia.css"/>
+  <link type="text/css" rel="stylesheet" href="./css/mainArticle.css" />
+  <link type="text/css" rel="stylesheet" href="./css/animationImagesTRG.css" />
+  <script type="text/javascript" src="./js/utils.js" ></script>
+  <script type="text/javascript" src="./js/whatsapp.js"  defer></script>
 
 </head>
 
@@ -31,9 +31,10 @@
             <div class="title"><img id="logo_header" src="./imgs/Thiago Oliveira Logo.webp" alt=""></div>
         </div>
         <nav class="links">
-            <!-- <button class="menu_button" id="menu-button" onclick="toggleMenu()"> -->
-                <!-- ||| -->
-            <!-- </button> -->
+            <button class="menu_button" id="menu-button" onclick="goToSchedule()">
+                <img id="icon_schedule" src="./imgs/schedule-calendar.svg" alt="agendar consulta" />
+                <span>Agendar Consulta</span>
+            </button>
         </nav>
     </header>
     <!--END HEADER-->
@@ -94,7 +95,7 @@
                 Generativo pode ser o caminho. Entre em contato para agendar uma sessão e começar 
                 sua jornada de transformação.
             </p>
-            <img class="consultation-img" src="./imgs/Book a consultation.svg" alt="Transforme sua vida">
+            <img class="consultation-img" src="./imgs/Book_a_consultation.svg" alt="Transforme sua vida">
 
         </article>
 

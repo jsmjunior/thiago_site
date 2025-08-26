@@ -65,6 +65,11 @@ header {
     justify-content: center;
     
 }
+#icon_schedule{
+    width: 100%;
+    height: 100%;
+
+}
 
 /* .header ul {
     height: 120px;
@@ -99,19 +104,39 @@ header {
 }
 .links {
     align-self: center;
-    height: 75px;
-    width: 75px;
-    text-decoration: none;
-    font-weight: bold;
+    height: 100px;
+    width: 100px;
     padding: 5px 5px;
     text-align: center;
     /* box-shadow: #222 0px 0px 2px;
     background-color: #333; */
     border-radius: 100%;
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
    
     
 
+}
+#menu-button {
+   background: none;
+   border: none;
+   cursor: pointer;
+   text-align: center;
+   color: white;
+}
+#icon_schedule{
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .links{
+        height: 100px;
+        width: 60px;
+        margin-right: 10px;
+        text-align: center;
+        font-size: 12px;
+    }
+    
 }
 /* .menu_button:hover {
     background-color: #4f4f4f;
@@ -125,8 +150,11 @@ header {
 
 
 @media screen and (max-width: 600px) {
-    /* header {
-    } */
+    header {
+        margin-top: 0;
+        width: 100%;
+        height: 100px!important;
+    }
 
     .icon_header {
         align-self: center;
