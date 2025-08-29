@@ -10,7 +10,7 @@
 
 }
 
-.social_media button {
+.social_media a {
     height: 50px;
     width:  200px;
     color: white;
@@ -30,7 +30,7 @@
 
 }
 
-.social_media button img {
+.social_media a img {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -67,10 +67,10 @@
     margin-top: 5px;
     align-self: right;
 }
-.social_media button:focus {
+.social_media a:focus {
     outline: none;
 }
-.social_media button:hover {
+.social_media a:hover {
     background-color: #000000;
     box-shadow: #000 2px 2px 2px 2px;
     color: rgb(255, 255, 255) !important;
