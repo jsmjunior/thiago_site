@@ -31,13 +31,13 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background: rgba(29, 54, 61, 0.647);
+    background: #89cff082;
     backdrop-filter: blur(5px);
     position: sticky;
     top: 0px;
     margin-bottom: 10px;
     text-align: center;
-    box-shadow: 5px 5px 2px 4px rgba(0,0,0,0.1); 
+    box-shadow: 5px 5px 2px 4px rgba(255, 255, 255, 0.1); 
     border-radius:  0px 10px 0 10px;
     z-index: 1000;
     height: 110px;
@@ -89,7 +89,6 @@ header {
     width: 75px;
     height: 75px;
     border-radius: 100%;
-    background: rgba(29, 54, 61, 0);
 
 }
 .icon_header #icon {
@@ -224,10 +223,11 @@ main {
 
 }
 .header_picture {
-    width: 100%;
+    width: 95%;
     height: 200px;
+    margin-top: 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    mask-image: linear-gradient(to top, transparent, rgb(255, 250, 250));
+    mask-image: linear-gradient(to top, transparent, rgb(255, 255, 255));
     border-radius: 5px;
     box-shadow: #333 0px 1px 5px 1px;
     z-index: 1;
