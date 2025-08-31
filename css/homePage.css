@@ -191,6 +191,32 @@ main {
     min-height: 100%;
     
 }
+
+.sub-title {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    align-self: center;
+    border-bottom: #000000 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title-steps-trg {
+    font-size: 18px;
+    color: #222;
+    margin-bottom: 5px;
+    margin-top: 40px!important;
+    align-self: flex-start;
+    border-bottom: #00000067 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
 @media screen and (max-width: 600px) {
     main {
         width: 100%;
@@ -233,7 +259,7 @@ main {
     z-index: 1;
 }
 
-@media screen {
+@media screen and (max-width: 600px) {
     .header_picture {
         height: 150px;
     }
@@ -266,7 +292,7 @@ footer {
     border-radius: 5px;
     bottom: -10px;
     min-width: 80%;
-    height: 200px;
+    height: 150px;
     border-radius: 10px 10px 0 0;
     position: static;
     bottom: 0;
@@ -282,6 +308,12 @@ footer p {
 /* end footer */
 
 /* responsive screens */
+@media screen and (max-width: 1200px) {
+    header{
+        width: 90%;
+    }
+}
+
 @media screen and (max-width: 600px) {
     body {
         flex-direction: column;
